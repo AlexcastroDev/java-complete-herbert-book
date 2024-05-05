@@ -29,12 +29,10 @@ class SingleThreaded {
 
 ## Java memory model building-blocks
 
-|--------------------------------------------------|
 | field-scoped    | method-scoped                   |
 |-----------------|---------------------------------|
 | final           | synchronized (method / block)   |
 | volatile        | java.util.concurrent.locks.Lock |
-|---------------------------------------------------|
 
 why do we need volatile ?
 
